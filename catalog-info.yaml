@@ -8,6 +8,8 @@ metadata:
     backstage.io/source-ref: "https://github.com/Dviejopomata/backstage-go-test"
     backstage.io/techdocs-ref: url:https://github.com/Dviejopomata/backstage-go-test
     backstage.io/github-actions-id: https://github.com/Dviejopomata/backstage-go-test
+  tags:
+    - go
 spec:
   type: service
   lifecycle: production
