@@ -13,6 +13,6 @@ spec:
   lifecycle: production
   owner: dviejo
   providesApis: 
-  - playback-order
+  - spotify
   consumesApis:
-  - shuffle-api
+  - petstore
