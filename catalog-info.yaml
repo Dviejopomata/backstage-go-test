@@ -12,3 +12,7 @@ spec:
   type: service
   lifecycle: production
   owner: dviejo
+  providesApis: 
+  - playback-order
+  consumesApis:
+  - shuffle-api
