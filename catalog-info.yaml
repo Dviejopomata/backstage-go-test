@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-go
+  description: Ejemplo backstage para go
+  annotations: 
+    github.com/project-slug: Dviejopomata/backstage-go-test
+    backstage.io/source-ref: "https://github.com/Dviejopomata/backstage-go-test"
+    backstage.io/techdocs-ref: url:https://github.com/Dviejopomata/backstage-go-test
+    backstage.io/github-actions-id: https://github.com/Dviejopomata/backstage-go-test
+spec:
+  type: service
+  lifecycle: experimental
+  owner: dviejo
